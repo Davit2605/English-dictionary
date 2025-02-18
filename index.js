@@ -30,7 +30,7 @@ async function fetchAPI(word) {
   }
 }
 inputEl.addEventListener("keyup", (e) => {
-  if (e.target.value && e.key === "Enter") {
+  if (e.target.value && e.key === "Ente") {
     fetchAPI(e.target.value);
   }
 });
